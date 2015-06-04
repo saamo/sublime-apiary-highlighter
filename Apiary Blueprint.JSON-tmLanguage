@@ -1,0 +1,16 @@
+{
+	"name": "Apiary Blueprint",
+	"scopeName": "source.apiary",
+	"fileTypes": ["apiary", "apib"],
+	"patterns": [
+		{
+			"match": "^#+.*$",
+			"name": "keyword"
+		},
+		{
+			"match": "^(\\+|\\*|\\-).*$",
+			"name": "constant.numeric"
+		}
+	],
+	"uuid": "5fb76a53-14d0-42db-ae85-018236c1612a"
+}
